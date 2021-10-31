@@ -137,7 +137,7 @@ margin-right: 16px;
 
 .videos-article-heading {
   margin-top: 0;
-
+margin-bottom: 4px;
   font-family: "Bebas Neue", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -161,12 +161,13 @@ text-decoration: none;
 
 .videos-article-list {
   display: flex;
-
+margin-top: 0;
 }
 
-.videos-article-item:not(:last-child){
-margin-right: 24.67px;
+.videos-article-item{
 
+margin-right: 24.67px;
+margin-top: 0;
 font-family: "Roboto Condenced", "Arial", sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -178,6 +179,7 @@ color: #888888;
 }
 
 .videos-article-item-eye{
+  margin-top: 0;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
